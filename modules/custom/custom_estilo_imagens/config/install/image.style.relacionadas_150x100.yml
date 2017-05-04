@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: relacionadas_150x100
+label: 'Relacionadas 150x100'
+effects:
+  96c4d9bb-1716-407f-80c9-44c9fd5e3590:
+    uuid: 96c4d9bb-1716-407f-80c9-44c9fd5e3590
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 150
+      height: 100

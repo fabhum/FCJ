@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: destaque_600x300
+label: 'destaque 600x300'
+effects:
+  9de532db-1434-43fd-ad76-3af1e5582396:
+    uuid: 9de532db-1434-43fd-ad76-3af1e5582396
+    id: image_scale_and_crop
+    weight: 3
+    data:
+      width: 600
+      height: 300
