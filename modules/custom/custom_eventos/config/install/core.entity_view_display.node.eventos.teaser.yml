@@ -4,6 +4,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.eventos.body
+    - field.field.node.eventos.field_imagem_de_destaque
+    - field.field.node.eventos.field_tags
     - node.type.eventos
   module:
     - text
@@ -24,4 +26,6 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_imagem_de_destaque: true
+  field_tags: true

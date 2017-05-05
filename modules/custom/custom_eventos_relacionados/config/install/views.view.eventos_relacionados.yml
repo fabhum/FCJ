@@ -4,6 +4,7 @@ dependencies:
   config:
     - field.storage.node.field_imagem_de_destaque
     - field.storage.node.field_tags
+    - image.style.relacionadas_150x100
     - taxonomy.vocabulary.tags
   module:
     - image
@@ -111,7 +112,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: ''
+            image_style: relacionadas_150x100
             image_link: ''
           group_column: ''
           group_columns: {  }
