@@ -2,47 +2,42 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.teaser
     - field.field.node.eventos.body
     - field.field.node.eventos.field_imagem_de_destaque
     - field.field.node.eventos.field_tags
-    - image.style.destaque_600x300
+    - image.style.lista_100x100
     - node.type.eventos
   module:
     - image
     - text
     - user
-id: node.eventos.default
+id: node.eventos.teaser
 targetEntityType: node
 bundle: eventos
-mode: default
+mode: teaser
 content:
   body:
     label: hidden
-    type: text_default
+    type: text_summary_or_trimmed
     weight: 2
-    settings: {  }
+    settings:
+      trim_length: 600
     third_party_settings: {  }
     region: content
   field_imagem_de_destaque:
+    type: image
     weight: 1
-    label: above
+    region: content
+    label: hidden
     settings:
-      image_style: destaque_600x300
+      image_style: lista_100x100
       image_link: ''
     third_party_settings: {  }
-    type: image
-    region: content
-  field_tags:
-    weight: 3
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
   links:
     weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_tags: true

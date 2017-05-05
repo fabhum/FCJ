@@ -2,9 +2,13 @@ name: 'Listagem de Eventos'
 type: module
 core: 8.x
 dependencies:
+  - custom_estilo_imagens
   - custom_eventos
+  - custom_noticia
+  - image
   - node
+  - text
   - user
   - views
-version: 8.x-1.0
+version: 8.x-1.1
 package: Custom
