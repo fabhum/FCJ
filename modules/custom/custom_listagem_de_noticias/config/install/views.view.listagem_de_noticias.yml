@@ -49,7 +49,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Burcae
+          submit_button: Buscar
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Filtrar por'
