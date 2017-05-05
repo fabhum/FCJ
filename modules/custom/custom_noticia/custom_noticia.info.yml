@@ -1,14 +1,17 @@
-name: Noticias
+name: Noticia
+description: 'Provides Noticia content type and related configuration. '
 type: module
 core: 8.x
 dependencies:
   - custom_categorias
   - custom_estilo_imagens
   - field
+  - file
   - image
   - menu_ui
   - node
   - path
+  - taxonomy
   - text
   - user
 version: 8.x-1.0
