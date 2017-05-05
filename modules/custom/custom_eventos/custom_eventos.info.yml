@@ -1,0 +1,15 @@
+name: Eventos
+type: module
+core: 8.x
+dependencies:
+  - custom_estilo_imagens
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+version: 8.x-1.0
+package: Custom
