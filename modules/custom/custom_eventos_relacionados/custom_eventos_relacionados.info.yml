@@ -1,15 +1,14 @@
-name: Eventos
+name: 'Eventos Relacionados'
 type: module
 core: 8.x
 dependencies:
+  - block
   - custom_estilo_imagens
-  - field
-  - file
+  - custom_eventos
   - image
-  - menu_ui
   - node
-  - path
-  - text
+  - taxonomy
   - user
+  - views
 version: 8.x-1.0
 package: Custom
