@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.noticias_relacionadas
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__noticias_relacionadas_block_noticias_relacionadas
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:noticias_relacionadas-block_noticias_relacionadas'
+settings:
+  id: 'views_block:noticias_relacionadas-block_noticias_relacionadas'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      noticia: noticia
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
