@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.listagem_de_noticias
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: exposedformlistagem_de_noticiaslistagem_noticias
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:listagem_de_noticias-listagem_noticias'
+settings:
+  id: 'views_exposed_filter_block:listagem_de_noticias-listagem_noticias'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /noticias
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,17 @@
+name: 'Listagem de Notícias'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - custom_categorias
+  - custom_estilo_imagens
+  - custom_noticia
+  - image
+  - node
+  - system
+  - taxonomy
+  - text
+  - user
+  - views
+version: 8.x-1.0
+package: Custom
