@@ -1,0 +1,8 @@
+name: 'Redes Sociais'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - easy_social
+version: ' 8.x-1.0'
+package: Custom

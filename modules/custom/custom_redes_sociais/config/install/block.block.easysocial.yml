@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - easy_social
+  theme:
+    - bartik
+id: easysocial
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: easy_social_block
+settings:
+  id: easy_social_block
+  label: 'Redes Sociais'
+  provider: easy_social
+  label_display: visible
+visibility: {  }
