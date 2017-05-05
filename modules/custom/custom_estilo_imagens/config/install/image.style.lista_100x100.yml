@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: lista_100x100
+label: 'lista 100x100'
+effects:
+  7ef3b806-9e02-4c9d-935f-f6626c8f1870:
+    uuid: 7ef3b806-9e02-4c9d-935f-f6626c8f1870
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
